@@ -5,6 +5,7 @@ function App() {
   const [num2,setNum2] = useState(0);
   const [num3,setNum3] = useState(0);
   const [code,setCode] = useState(0);
+  ///Shopping Card////
   function total(a,b,c,d){
       if(d== 1122){
         const lamount = (a*25+b*25+c*25)*5/100;
